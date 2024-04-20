@@ -4,7 +4,7 @@ import Login from "../components/auth/Login";
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Login />} />
     </Routes>
   );
 };

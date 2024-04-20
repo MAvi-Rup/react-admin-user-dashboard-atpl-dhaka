@@ -5,37 +5,37 @@ const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const { login } = useContext(AuthContext);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     login(username, password);
   };
+
   return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="bg-white p-8 rounded-lg shadow-md">
-        <h2 className="text-2xl font-bold mb-6">Login</h2>
-        <form onSubmit={handleSubmit}>
-          <div className="mb-4">
-            <label htmlFor="username" className="block mb-2">
-              Username
-            </label>
+    <div className="flex justify-center items-center min-h-screen bg-gray-50">
+      <div className="bg-white p-8 rounded-md shadow-md w-full max-w-md">
+        <h2 className="text-lg font-semibold mb-4 text-center">Login</h2>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
             <input
               type="text"
               id="username"
+              placeholder="Username"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              autoComplete="username"
             />
           </div>
-          <div className="mb-6">
-            <label htmlFor="password" className="block mb-2">
-              Password
-            </label>
+          <div>
             <input
               type="password"
               id="password"
+              placeholder="Password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              autoComplete="current-password"
             />
           </div>
           <button
