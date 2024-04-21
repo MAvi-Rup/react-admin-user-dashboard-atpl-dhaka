@@ -1,16 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router } from "react-router-dom";
-import App from "./App.jsx";
-import AuthProvider from "./components/auth/authContext.jsx";
+import { BrowserRouter as Router, useNavigate } from "react-router-dom";
+import App from "./App";
+
+import AuthProvider from "./components/auth/authContext";
 import "./index.css";
+
+const Navigate = ({ children }) => {
+  const navigate = useNavigate();
+  return <AuthProvider navigate={navigate}>{children}</AuthProvider>;
+};
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <AuthProvider>
-      <Router>
+    <Router>
+      <Navigate>
         <App />
-      </Router>
-    </AuthProvider>
+      </Navigate>
+    </Router>
   </React.StrictMode>
 );

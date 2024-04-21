@@ -1,9 +1,9 @@
 import { createContext, useState } from "react";
-import userData from "../../data/data.json";
 
+import userData from "../../data/data.json";
 export const AuthContext = createContext();
 
-const AuthProvider = ({ children }) => {
+const AuthProvider = ({ children, navigate }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [userRole, setUserRole] = useState(null);
 
@@ -15,6 +15,7 @@ const AuthProvider = ({ children }) => {
     if (user) {
       setIsAuthenticated(true);
       setUserRole(user.role);
+      navigate(user.role === "admin" ? "/admin" : "/user");
     } else {
       alert("Invalid username or password");
     }
@@ -22,6 +23,7 @@ const AuthProvider = ({ children }) => {
 
   const logout = () => {
     setIsAuthenticated(false);
+    navigate("/");
   };
 
   return (

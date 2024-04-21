@@ -5,7 +5,7 @@ const Navbar = () => {
   const { logout } = useContext(AuthContext);
 
   return (
-    <nav className="bg-gray-800 py-4">
+    <nav className=" bg-slate-700 py-4">
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="text-white font-bold">My App</div>
         <button
