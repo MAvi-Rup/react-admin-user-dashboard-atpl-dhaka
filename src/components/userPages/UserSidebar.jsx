@@ -11,7 +11,7 @@ const UserSidebar = () => {
           <ul>
             <li className="mb-2">
               <Link
-                to="/products"
+                to="products"
                 className={`block py-2 px-4 rounded ${
                   location.pathname === "/products"
                     ? "bg-blue-500 text-white"
@@ -23,7 +23,7 @@ const UserSidebar = () => {
             </li>
             <li>
               <Link
-                to="/profile"
+                to="profile"
                 className={`block py-2 px-4 rounded ${
                   location.pathname === "/profile"
                     ? "bg-blue-500 text-white"

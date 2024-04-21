@@ -40,5 +40,33 @@
     "description": "Experience powerful, bass-driven sound with the Sony WH-XB900N headphones. Enjoy long listening sessions in comfort with their ergonomic design and wireless connectivity.",
     "price": 248.0,
     "image": "/images/pic6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Sony WH-XB900N",
+    "description": "Experience powerful, bass-driven sound with the Sony WH-XB900N headphones. Enjoy long listening sessions in comfort with their ergonomic design and wireless connectivity.",
+    "price": 248.0,
+    "image": "/images/pic6.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Sony WH-XB900N",
+    "description": "Experience powerful, bass-driven sound with the Sony WH-XB900N headphones. Enjoy long listening sessions in comfort with their ergonomic design and wireless connectivity.",
+    "price": 248.0,
+    "image": "/images/pic6.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Sony WH-XB900N",
+    "description": "Experience powerful, bass-driven sound with the Sony WH-XB900N headphones. Enjoy long listening sessions in comfort with their ergonomic design and wireless connectivity.",
+    "price": 248.0,
+    "image": "/images/pic6.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Sony WH-XB900N",
+    "description": "Experience powerful, bass-driven sound with the Sony WH-XB900N headphones. Enjoy long listening sessions in comfort with their ergonomic design and wireless connectivity.",
+    "price": 248.0,
+    "image": "/images/pic6.jpg"
   }
 ]

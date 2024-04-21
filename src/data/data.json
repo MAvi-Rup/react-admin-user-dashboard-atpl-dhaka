@@ -79,6 +79,12 @@
       "username": "admin3",
       "password": "adminpassword3",
       "role": "admin"
+    },
+    {
+      "id": 4,
+      "username": "avirupmondal19@gmail.com",
+      "password": "avirup123",
+      "role": "admin"
     }
   ]
 }

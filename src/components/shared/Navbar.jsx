@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className=" bg-slate-700 py-4">
       <div className="container mx-auto flex justify-between items-center px-4">
-        <div className="text-white font-bold">My App</div>
+        <div className="text-white font-bold">Headphone Store</div>
         <button
           className="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded"
           onClick={logout}
