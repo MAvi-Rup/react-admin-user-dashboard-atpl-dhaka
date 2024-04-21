@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Sony WH-1000XM4",
+    "description": "Experience the next level of noise-canceling technology with the Sony WH-1000XM4 headphones. Featuring industry-leading noise cancellation, premium sound quality, and all-day comfort.",
+    "price": 349.99,
+    "image": "/images/pic1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bose QuietComfort 45",
+    "description": "Escape into your music with the Bose QuietComfort 45 headphones. Enjoy unparalleled noise cancellation, immersive sound, and a lightweight, comfortable design.",
+    "price": 329.95,
+    "image": "/images/pic2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sennheiser HD 660 S",
+    "description": "Elevate your listening experience with the Sennheiser HD 660 S headphones. Featuring high-resolution sound, premium materials, and a timeless design.",
+    "price": 499.95,
+    "image": "/images/pic3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Audio-Technica ATH-M50xBT",
+    "description": "Enjoy wireless freedom without compromising on sound quality with the Audio-Technica ATH-M50xBT headphones. Experience studio-quality sound wherever you go.",
+    "price": 179.0,
+    "image": "/images/pic4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Beats Studio3 Wireless",
+    "description": "Immerse yourself in the music with the Beats Studio3 Wireless headphones. Featuring adaptive noise cancellation, Apple W1 chip for seamless connectivity, and up to 22 hours of battery life.",
+    "price": 349.95,
+    "image": "/images/pic5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Sony WH-XB900N",
+    "description": "Experience powerful, bass-driven sound with the Sony WH-XB900N headphones. Enjoy long listening sessions in comfort with their ergonomic design and wireless connectivity.",
+    "price": 248.0,
+    "image": "/images/pic6.jpg"
+  }
+]
