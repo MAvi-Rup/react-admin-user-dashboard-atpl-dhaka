@@ -1,4 +1,5 @@
 import { useContext, useState } from "react";
+import avatarSvg from "../../assets/avatar.svg";
 import { AuthContext } from "./authContext";
 
 const Login = () => {
@@ -12,10 +13,13 @@ const Login = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-50">
+    <div className="flex justify-center items-center min-h-screen bg-slate-200">
       <div className="bg-white p-8 rounded-md shadow-md w-full max-w-md">
+        <div className="flex justify-center mb-4">
+          <img src={avatarSvg} alt="Avatar" className="w-14" />
+        </div>
         <h2 className="text-lg font-semibold mb-4 text-center">Login</h2>
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-4 ">
           <div>
             <input
               type="text"
@@ -40,7 +44,7 @@ const Login = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition-colors"
+            className="w-full bg-cyan-400 text-white py-2 px-4 rounded-md hover:bg-cyan-500 transition-colors"
           >
             Login
           </button>

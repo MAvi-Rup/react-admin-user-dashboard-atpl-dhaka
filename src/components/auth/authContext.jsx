@@ -22,7 +22,6 @@ const AuthProvider = ({ children }) => {
 
   const logout = () => {
     setIsAuthenticated(false);
-    setUserRole(null);
   };
 
   return (

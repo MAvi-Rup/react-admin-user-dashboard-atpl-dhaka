@@ -29,19 +29,55 @@
       "username": "user5",
       "password": "password5",
       "role": "user"
+    },
+    {
+      "id": 6,
+      "username": "user6",
+      "password": "password6",
+      "role": "user"
+    },
+    {
+      "id": 7,
+      "username": "user7",
+      "password": "password7",
+      "role": "user"
+    },
+    {
+      "id": 8,
+      "username": "user8",
+      "password": "password8",
+      "role": "user"
+    },
+    {
+      "id": 9,
+      "username": "user9",
+      "password": "password9",
+      "role": "user"
+    },
+    {
+      "id": 10,
+      "username": "user10",
+      "password": "password10",
+      "role": "user"
     }
   ],
   "admins": [
     {
-      "id": 6,
+      "id": 1,
       "username": "admin1",
       "password": "adminpassword1",
       "role": "admin"
     },
     {
-      "id": 7,
+      "id": 2,
       "username": "admin2",
       "password": "adminpassword2",
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "username": "admin3",
+      "password": "adminpassword3",
       "role": "admin"
     }
   ]
